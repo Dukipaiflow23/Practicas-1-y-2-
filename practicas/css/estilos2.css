@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: whitesmoke (245, 212, 145);
+  }
+  
+  #agrupar {
+    clear: both;
+  }
+  
+  #cabecera h1 {
+    font: bold 40px Nunito, sans-serif;
+    background-color: red (63, 3, 129);
+    border:  1px solid black;
+    color: aliceblue;
+  }
+  
+  #cabecera ul li a {
+    text-decoration: none;
+  }
+  
+  #cabecera li {
+    display: inline;
+    list-style: none;
+    padding: 2%;
+    font: bold 20px Nunito, sans-serif;
+  }
+  
+  #cabecera ul {
+    display: inline-block;
+    width: 75%;
+  }
+  
+  header {
+    width: 100%;
+    background-color: yellow (81, 229, 255);
+  }
+  
+  form {
+    position: absolute;
+    left: 70%;
+    top: 8%;
+  }
+  
+  #menu {
+    width: 1000px;
+    padding: 5px 15px;
+  }
+  
+  #menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+  }
+  
+  #buscado {
+    padding: 4px;
+  }
+  
+  #recetas-carne {
+    margin-left: 2%;
+    width: 55%;
+    background-color: orange (240, 108, 155);
+  }
+  
+  #receta1-carne {
+    width: 100%;
+    height: auto;
+  }
+  
+  #receta1-carne img {
+    width: 80%;
+    height: auto;
+  }
+  
+  #receta1-carne .descripcion {
+    margin-left: 2%;
+  }
+  
+  #receta1-carne .titulo-receta {
+    margin-left: 1%;
+  }
+  
+  #receta1-carne .ingredientes {
+    float: left;
+    margin-left: 4%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+  }
+  
+  #receta2-carne {
+    width: 100%;
+    height: auto;
+    clear: both;
+  }
+  
+  #receta2-carne img {
+    width: 80%;
+    height: auto;
+  }
+  
+  #receta2-carne .descripcion {
+    margin-left: 2%;
+  }
+  
+  #receta2-carne .titulo-receta {
+    margin-left: 1%;
+  }
+  
+  #receta2-carne .ingredientes {
+    float: left;
+    margin-left: 4%;
+    margin-bottom: 11%;
+    margin-right: 15%;
+  }
+  
+  #recetas-pescado {
+    width: 55%;
+    margin-left: 2%;
+    background-color: orange (240, 108, 155);
+  }
+  
+  #recetas-pescado img {
+    width: 80%;
+    height: auto;
+  }
+  
+  #recetas-pescado h2{
+    clear: both;
+  }
+  
+  #recetas-pescado .descripcion {
+    margin-left: 2%;
+  }
+  
+  #recetas-pescado .titulo-receta {
+    margin-left: 1%;
+  }
+  
+  #recetas-pescado .ingredientes {
+    float: left;
+    margin-left: 4%;
+    margin-bottom: 10%;
+    margin-right: 8%;
+  }
+  
+  #lateral img {
+    width: 90%;
+    height: auto;
+    margin-bottom: 2%;
+  }
+  
+  #lateral {
+    position: absolute;
+    display: inline-block;
+    left: 60%;
+    top: 14.5%;
+    padding: 2%;
+    height: 240%;
+    width: 30%;
+    margin-left: 5%;
+    border: 1px solid black;
+    background-color: orange (240, 108, 155);
+  }
+  
+  #pie {
+    display: inline-flex;
+    float: left;
+    position: absolute;
+    margin-left: -400px;
+    width: 55%;
+    clear: both;
+    background-color: orange (249, 185, 183);
+    border: 1px solid black;
+  }
+  
+  #pie p {
+    padding: 3%;
+    margin-right: 10%;
+  }
